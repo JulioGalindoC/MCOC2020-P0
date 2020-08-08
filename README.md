@@ -33,3 +33,8 @@
 * Dirección IP (Interna, del router): 192.168.86.22
 * Dirección IP (Externa, del ISP): 190.215.226.26
 * Proveedor internet: Gtd Manquehue S.A.
+* Desempeño MATMUL:
+  * Versión python: 3.7.5
+  * Versión numpy: 1.19.1
+  
+  
