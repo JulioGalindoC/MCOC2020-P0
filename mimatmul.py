@@ -9,7 +9,7 @@
 #                                                         #
 ###########################################################
 #
-#  Implementación Multiplicación de Matrices
+#  Implementación Multiplicación de Matrices 
 ###############################################
 
 def mimatmul(A,B) :
