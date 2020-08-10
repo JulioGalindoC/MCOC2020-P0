@@ -9,8 +9,8 @@
 #                                                         #
 ###########################################################
 #
-# Implementacion MIMATMUL
-#########################################
+# Desempeño función MIMATMUL (10 CORRIDAS)
+###########################################
 from scipy import rand
 from mimatmul import mimatmul
 from time import perf_counter
