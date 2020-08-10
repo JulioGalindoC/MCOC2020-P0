@@ -25,7 +25,7 @@ N = [2, 5, 10,
      800,1000,2000,
      5000, 10000]
 
-num_runs = 10
+num_runs = 10 
 
 for i in range(num_runs) :
     
