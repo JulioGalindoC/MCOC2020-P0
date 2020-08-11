@@ -36,5 +36,8 @@
 * Desempeño MATMUL:
   * Versión python: 3.7.5
   * Versión numpy: 1.19.1
-  
+* Desempeño MIMATMUL:  
+  * Si bien las operaciones multiplicación y suma se realizan en tiempo constante (O(1)) es decir son operaciones rapidas, la función MIMATMUL tiene 3   ciclos for identados. Por lo tanto, el algoritmo tiene una complejidad O(n^3) convirtiendose de esta forma en un algoritmo lento.
+  * La libreria scipy de la cual se importa la función MATMUL, esta programada principalmente en C++, un lenguaje de bajo nivel (se tiene más control de los usos de memoria), y el codigo esta compilado (de rapida ejecución). De esta forma, MATMUL es más rapido que MIMATMUL que esta programado en python que es un lenguaje de alto nivel e interpretado.
+  * Si bien se puede ver que MATMUL exije más al procesador ocupa mucha menor memoria de esta forma no hay problemas de paginación o de segmaentación.
   
