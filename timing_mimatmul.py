@@ -12,8 +12,16 @@
 # Desempeño función MIMATMUL (10 CORRIDAS)
 ###########################################
 from scipy import rand
-from mimatmul import mimatmul
+from numpy import zeros
 from time import perf_counter
+
+def mimatmul(A,B) :
+    global C
+    for i in range(len(A)) :
+        for j in range(len(B[0])) :
+            for k in range(len(B)) :
+                C[i][j] += A[i][k] * B[k][j]
+    return C
 
 N = [2, 5, 10,
      12, 15, 20,
