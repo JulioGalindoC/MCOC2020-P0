@@ -49,5 +49,10 @@
   * np.single: 28 bits
   * np.double: 32 bits
   * np.longdouble: 48 bits
-
-  
+* scipy.linalg:
+  * Libreria con altas capacidades de algebra lineal, es por esto que lo más probable es que utilice el metodo Reduced Row Echelon Form (RREF).
+  * Libreria compilada con soporte en BLAS/LAPACK.
+  * Tiene todas las funciones de numpy.linalg más algunas extra.
+* numpy.linalg:
+  * Libreria con altas capacidades de algebra lineal, es por esto que lo más probable es que utilice el metodo Reduced Row Echelon Form (RREF).  
+  * Compilada con soporte en BLAS/LAPACK es opcional. tendera a ser más lenta que scipy.linalg dependiendo de la versión de numpy que se tiene instalada.
