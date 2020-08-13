@@ -57,7 +57,7 @@ for i in range(num_runs) :
         
         dt = t2 - t1
         
-        size = 2 * (i**2) * 48   # 2 Matrices, i^2, 48 bits por cada numero float
+        size = 1 * (i**2) * 48   # 2 Matriz, i^2, 48 bits por cada numero float
         
         dts.append(dt)
         mem.append(size)
